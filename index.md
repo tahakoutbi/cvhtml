@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/tahakoutbi/cvhtml/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tahakoutbi/cvhtml/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<title>CV</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		Chbani Mahmoud el Mehdi<br/>
+		19 ans<br/>
+		Res Waha Appt 2 Imm15 Hay Nahda 1 Rabat
+		<header><h1>CV</h1></header>
+		<p>Elève ingénieur officier de réserve à l'Ecole Mohammadia d'Ingénieurs à la recherche d'un stage professionel en développement informatique.</p>
+		<section>
+			<h3><u>Formation et Diplôme:</u></h3>
+			<nav>
+			  <ul>
+				<li>Ecole Mohammadia d'Ingénieurs, Génie informatique</li>
+				<li>Lycée Moulay Youssef, Classes préparatoires</li>
+				<li>Groupe Scolaire Atlas, Baccalauréat</li>
+			  </ul>
+			</nav>
+		</section>
+		<section>
+			<h3><u>Compétences Techniques:</u></h3>
+			<nav>
+			  <ul>
+				<li>Languages:
+				<aside><cite>Pyhton, SQL, C</cite></aside></li>
+				<li>Technologies Web:
+				<aside><cite>HTML</cite></aside></</li>
+				<li>Bases de données:
+				<aside><cite>SQLite, MySQL</cite></aside></</li>
+			  </ul>
+			</nav>
+		</section>
+		<section>
+			<h3><u>Compétences Linguistiques:</u></h3>
+			<nav>
+			  <ul>
+				<li><b>Arabe</b>
+				&emsp;&emsp;Courant</li>
+				<li><b>Français</b>
+				&emsp;&emsp;Courant</li>
+				<li><b>Anglais</b>
+				&emsp;&emsp;Courant</li>
+			  </ul>
+			</nav>
+		</section>
+		<section>
+			<h3><u>Autres:</u></h3>
+			<nav>
+			  <ul>
+				<li>Football</li>
+				<li>Fitness</li>
+				<li>Culture Américaine</li>
+			  </ul>
+			</nav>
+		</section>
+		<footer>
+			<ul type="square">
+				<li>Edité par: Chbani</li>
+				<li>
+				Dernière mise à jour:
+					<span id="demo"></span>
+					<script>
+					document.getElementById("demo").innerHTML = document.lastModified;
+					</script>
+				</li>
+				<li>
+					<article>&copy; Copyright 2021 HTML.am
+					</article>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
